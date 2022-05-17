@@ -1,7 +1,7 @@
 /* Link Styling */
 a:link {color: blue;}
 a:visited {color: red;}
-a:hover {color:orange;}
+a:hover {color: orange;}
 a:active {color: green;}
 
 .btn {
@@ -59,7 +59,7 @@ p li {
 
 .text {
   text-align: center;
-  color: #151515;
+  color: black;
 }
 
 /* Horizontal Rule Sytling */
