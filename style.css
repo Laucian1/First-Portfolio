@@ -1,0 +1,76 @@
+/* Link Styling */
+a:link {color: blue;}
+a:visited {color: red;}
+a:hover {color:orange;}
+a:active {color: green;}
+
+.btn {
+  display: inline-block;
+  font-family: fantasy, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background-color: black;
+  border: 1px solid red;
+}
+
+/* Image Styling */
+.center {
+  display: block;
+  margin-left: auto;
+  Margin-right: auto;
+  width: 50%;
+}
+
+/* Backgrounds */
+header {
+  padding: 20px;
+  background-color: #6494AA;
+}
+main {
+  padding: 20px;
+  background-color: #A63D40
+}
+footer {
+  padding: 20px;
+  background-color: #90A959
+}
+/* Text Sytling */
+h1 {
+  font-size: 48px;
+  font-family: "Times New Roman", serif;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: Georgia, sans-serif;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+}
+p li {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.text {
+  text-align: center;
+  color: #151515;
+}
+
+/* Horizontal Rule Sytling */
+hr {
+  color: black;
+  background: black;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 20px;
+  width: 20px;
+  transform: rotate(45deg);
+}
