@@ -73,3 +73,9 @@ hr {
   width: 20px;
   transform: rotate(45deg);
 }
+
+/* List Styling */
+ul, ol {
+  list-style-position: inside;
+  list-style-type: upper-roman;
+}
