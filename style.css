@@ -62,6 +62,14 @@ p li {
   color: white;
 }
 
+ul ol p {
+  font-size: 1.5rem;
+}
+
+li p {
+  line-height: 1.5;
+}
+
 /* Horizontal Rule Sytling */
 hr {
   color: black;
