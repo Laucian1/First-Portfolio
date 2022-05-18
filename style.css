@@ -1,5 +1,5 @@
 /* Link Styling */
-a:link {color: blue;}
+a:link {color: #3993DD;}
 a:visited {color: red;}
 a:hover {color: orange;}
 a:active {color: green;}
@@ -27,17 +27,13 @@ a:active {color: green;}
 }
 
 /* Backgrounds */
-header {
+header, footer {
   padding: 20px;
   background-color: #6494AA;
 }
 main {
   padding: 20px;
   background-color: #A63D40
-}
-footer {
-  padding: 20px;
-  background-color: #90A959
 }
 
 /* Text Sytling */
@@ -57,12 +53,12 @@ h3 {
 /* Text class */
 .text {
   text-align: center;
-  color: #151515;
+  color: white;
 }
 
 /* Paragraph and List Styling */
 p li {
-  font-size: 12px;
+  font-size: 14px;
   font-family: Arial, sans-serif;
   line-height: 1.5;
 }
@@ -75,6 +71,7 @@ ul, ol {
 ol {
   list-style-type: upper-roman;
 }
+
 
 /* Horizontal Rule Sytling */
 hr {
