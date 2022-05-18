@@ -16,6 +16,7 @@ a:active {color: green;}
   border-radius: 10px;
   background-color: black;
   border: 1px solid red;
+  font-weight: bold;
 }
 
 /* Image Styling */
