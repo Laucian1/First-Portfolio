@@ -4,6 +4,7 @@ a:visited {color: red;}
 a:hover {color: orange;}
 a:active {color: green;}
 
+/* Button Class */
 .btn {
   display: inline-block;
   font-family: fantasy, sans-serif;
@@ -37,37 +38,41 @@ footer {
   padding: 20px;
   background-color: #90A959
 }
+
 /* Text Sytling */
+  /*Headers*/
 h1 {
   font-size: 48px;
   font-family: "Times New Roman", serif;
 }
-
 h2 {
   font-size: 36px;
   font-family: Georgia, sans-serif;
 }
-
 h3 {
   font-size: 24px;
   font-family: Arial, sans-serif;
 }
+/* Text class */
+.text {
+  text-align: center;
+  color: #151515;
+}
+
+/* Paragraph and List Styling */
 p li {
   font-size: 12px;
   font-family: Arial, sans-serif;
+  line-height: 1.5;
 }
-
-.text {
-  text-align: center;
-  color: white;
-}
-
 ul ol p {
   font-size: 1.5rem;
 }
-
-li p {
-  line-height: 1.5;
+ul, ol {
+  list-style-position: inside;
+}
+ol {
+  list-style-type: upper-roman;
 }
 
 /* Horizontal Rule Sytling */
@@ -80,13 +85,4 @@ hr {
   height: 20px;
   width: 20px;
   transform: rotate(45deg);
-}
-
-/* List Styling */
-ul, ol {
-  list-style-position: inside;
-}
-
-ol {
-  list-style-type: upper-roman;
 }
