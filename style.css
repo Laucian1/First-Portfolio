@@ -77,5 +77,8 @@ hr {
 /* List Styling */
 ul, ol {
   list-style-position: inside;
+}
+
+ol {
   list-style-type: upper-roman;
 }
